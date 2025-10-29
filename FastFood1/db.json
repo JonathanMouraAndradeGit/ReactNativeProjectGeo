@@ -1,0 +1,204 @@
+{
+  "lanches": [
+    {
+      "id": "0",
+      "name": "burg01",
+      "img": "foto1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate.",
+      "price": 50,
+      "grade": 10,
+      "avgQtd": [
+        {
+          "id": 0,
+          "desc": "description1",
+          "grade": 10
+        },
+        {
+          "id": 1,
+          "desc": "description2",
+          "grade": 10
+        },
+        {
+          "desc": "thundedescription",
+          "grade": 10
+        },
+        {
+          "desc": "so so i think this thing could be more tasty you know",
+          "grade": 5
+        },
+        {
+          "desc": "meh",
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "burg02",
+      "img": "foto1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate.",
+      "price": 30,
+      "grade": 0,
+      "avgQtd": [
+        {
+          "id": 0,
+          "desc": "description1",
+          "grade": 5
+        },
+        {
+          "id": 1,
+          "desc": "description2",
+          "grade": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "burg03",
+      "img": "foto1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate.",
+      "price": 20,
+      "grade": 0,
+      "avgQtd": [
+        {
+          "id": 0,
+          "desc": "description1",
+          "grade": 2
+        },
+        {
+          "id": 1,
+          "desc": "description2",
+          "grade": 10
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "burg04",
+      "img": "foto2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate.",
+      "price": 10,
+      "grade": 0,
+      "avgQtd": [
+        {
+          "id": 0,
+          "desc": "description1",
+          "grade": 9
+        },
+        {
+          "id": 1,
+          "desc": "description2",
+          "grade": 10
+        },
+        {
+          "desc": "verygood",
+          "grade": 10
+        }
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "56b3",
+      "items": [
+        {
+          "id": "3",
+          "name": "burg04",
+          "qtd": 4,
+          "price": 10,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        },
+        {
+          "id": "2",
+          "name": "burg03",
+          "qtd": 1,
+          "price": 20,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        }
+      ],
+      "createdAt": "2025-10-29T00:04:08.589Z"
+    },
+    {
+      "id": "d29a",
+      "items": [
+        {
+          "id": "2",
+          "name": "burg03",
+          "qtd": 6,
+          "price": 20,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        },
+        {
+          "id": "0",
+          "name": "burg01",
+          "qtd": 1,
+          "price": 50,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        },
+        {
+          "id": "3",
+          "name": "burg04",
+          "qtd": 9,
+          "price": 10,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        }
+      ],
+      "createdAt": "2025-10-29T00:40:10.941Z"
+    },
+    {
+      "id": "4214",
+      "items": [
+        {
+          "id": "0",
+          "name": "burg01",
+          "qtd": 12,
+          "price": 50,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        },
+        {
+          "id": "3",
+          "name": "burg04",
+          "qtd": 1,
+          "price": 10,
+          "img": {
+            "uri": "/assets/?unstable_path=.%2Fassets%2FimgFood/burg2.png",
+            "width": 3648,
+            "height": 5472
+          },
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nesciunt consequuntur delectus itaque cupiditate."
+        }
+      ],
+      "createdAt": "2025-10-29T00:41:29.612Z"
+    }
+  ]
+}
